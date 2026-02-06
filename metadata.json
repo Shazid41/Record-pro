@@ -1,0 +1,5 @@
+{
+  "name": "StudentRecordPro",
+  "description": "A high-performance student record management system with AI-driven academic insights, featuring CRUD operations and persistent storage simulation.",
+  "requestFramePermissions": []
+}
