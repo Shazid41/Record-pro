@@ -6,6 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>StudentRecordPro | Advanced Academic Management</title>
     <meta name="description" content="Manage student records efficiently with AI-powered insights and real-time analytics. Built for modern educational institutions.">
+    
+    <!-- Polyfill for process.env to prevent crashes in production browser environments -->
+    <script>
+      window.process = {
+        env: {
+          NODE_ENV: 'production',
+          API_KEY: '' 
+        }
+      };
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
